@@ -1,0 +1,14 @@
+.editor {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.96);
+  color: var(--text);
+  border: 1.5px solid var(--accent);
+  border-radius: 6px;
+  outline: none;
+  font-family: Inter, system-ui, sans-serif;
+  text-align: center;
+  resize: none;
+  padding: 6px;
+  box-shadow: var(--shadow-md);
+  z-index: 30;
+}

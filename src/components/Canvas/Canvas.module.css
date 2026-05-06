@@ -1,0 +1,47 @@
+.stage {
+  position: fixed;
+  inset: 0;
+}
+
+.stage--select {
+  cursor: default;
+}
+
+.stage--hand {
+  cursor: grab;
+}
+
+.stage--hand:active {
+  cursor: grabbing;
+}
+
+.stage--rect,
+.stage--roundedRect,
+.stage--ellipse,
+.stage--triangle,
+.stage--diamond,
+.stage--parallelogram,
+.stage--hexagon,
+.stage--cylinder,
+.stage--star,
+.stage--dot,
+.stage--line,
+.stage--arrow,
+.stage--connector,
+.stage--pen,
+.stage--text {
+  cursor: crosshair;
+}
+
+.stage--eraser {
+  cursor: cell;
+}
+
+.marquee {
+  position: fixed;
+  pointer-events: none;
+  border: 1px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: 2px;
+  z-index: 5;
+}

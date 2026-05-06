@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy — Instant Whiteboard</title>
+    <meta
+      name="description"
+      content="Privacy policy for the Instant Whiteboard Chrome extension."
+    />
+    <style>
+      :root {
+        --bg: #fafaf9;
+        --surface: #ffffff;
+        --border: #e7e5e4;
+        --text: #1c1917;
+        --muted: #57534e;
+        --subtle: #78716c;
+        --accent: #0a0a0a;
+        --radius-md: 12px;
+        --shadow-md: 0 1px 2px rgba(15, 15, 15, 0.04),
+          0 8px 24px rgba(15, 15, 15, 0.06);
+        --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system,
+          'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: var(--font-sans);
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      main {
+        max-width: 720px;
+        margin: 64px auto;
+        padding: 0 20px;
+      }
+
+      .card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius-md);
+        box-shadow: var(--shadow-md);
+        padding: 40px 44px;
+      }
+
+      .eyebrow {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--subtle);
+        margin: 0 0 8px;
+      }
+
+      h1 {
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        margin: 0 0 6px;
+      }
+
+      .meta {
+        color: var(--subtle);
+        font-size: 13px;
+        margin: 0 0 28px;
+      }
+
+      h2 {
+        font-size: 17px;
+        font-weight: 600;
+        margin: 28px 0 8px;
+      }
+
+      p {
+        margin: 0 0 12px;
+        color: var(--muted);
+      }
+
+      ul {
+        margin: 0 0 12px;
+        padding-left: 20px;
+        color: var(--muted);
+      }
+
+      li {
+        margin: 4px 0;
+      }
+
+      strong {
+        color: var(--text);
+        font-weight: 600;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+
+      footer {
+        margin-top: 32px;
+        text-align: center;
+        font-size: 12px;
+        color: var(--subtle);
+      }
+
+      @media (max-width: 560px) {
+        main {
+          margin: 28px auto;
+        }
+        .card {
+          padding: 28px 22px;
+          border-radius: 10px;
+        }
+        h1 {
+          font-size: 24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <p class="eyebrow">Privacy</p>
+        <h1>Instant Whiteboard — Privacy Policy</h1>
+        <p class="meta">Last updated: May 6, 2026</p>
+
+        <p>
+          Instant Whiteboard ("the extension") is a local-first whiteboard
+          for Chrome. We've designed it so the data you create stays on your
+          device. This page explains what the extension does and does not
+          do with your data.
+        </p>
+
+        <h2>What we collect</h2>
+        <p>
+          <strong>Nothing personally identifying.</strong> The extension does
+          not collect, transmit, or sell any personal information,
+          analytics, telemetry, advertising identifiers, or usage data.
+        </p>
+
+        <h2>What we store, and where</h2>
+        <p>
+          The extension saves your board (shapes, text, images you insert,
+          and zoom/position) to your browser's local storage so it persists
+          across reloads. Specifically:
+        </p>
+        <ul>
+          <li>
+            <strong>chrome.storage.local</strong> — used to auto-save your
+            board on this device.
+          </li>
+          <li>
+            <strong>unlimitedStorage</strong> permission — requested so
+            inserted images don't hit the default 5&nbsp;MB storage quota.
+          </li>
+        </ul>
+        <p>
+          This data never leaves your device. It is not synced to any
+          server we control, and we have no way to read it.
+        </p>
+
+        <h2>Permissions we request, and why</h2>
+        <ul>
+          <li>
+            <strong>storage</strong> — to auto-save your board locally.
+          </li>
+          <li>
+            <strong>tabs</strong> — to open the whiteboard in a new tab
+            when you click the toolbar icon or press the keyboard shortcut.
+          </li>
+          <li>
+            <strong>unlimitedStorage</strong> — so larger boards (with
+            images) can be saved locally.
+          </li>
+        </ul>
+
+        <h2>Network activity</h2>
+        <p>
+          The extension does not make any network requests. It does not
+          contact us, third-party servers, advertising networks, or
+          analytics providers.
+        </p>
+
+        <h2>Cookies and tracking</h2>
+        <p>
+          The extension does not use cookies and does not track you across
+          sites or sessions.
+        </p>
+
+        <h2>Images and clipboard data</h2>
+        <p>
+          Images you paste, drop, or insert via the toolbar are processed
+          entirely in your browser and stored as part of your local board.
+          They are not uploaded anywhere.
+        </p>
+
+        <h2>Children's privacy</h2>
+        <p>
+          The extension is not directed at children under 13 and does not
+          knowingly collect any information from anyone, including
+          children.
+        </p>
+
+        <h2>Changes to this policy</h2>
+        <p>
+          If this policy ever changes, the updated version will be
+          published at the same URL with a revised "Last updated" date.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          Questions or concerns? Open an issue on the project's GitHub
+          repository:
+          <a
+            href="https://github.com/ashwyn222/instant-whiteboard/issues"
+            target="_blank"
+            rel="noopener noreferrer"
+            >github.com/ashwyn222/instant-whiteboard/issues</a
+          >.
+        </p>
+      </article>
+
+      <footer>© 2026 Instant Whiteboard</footer>
+    </main>
+  </body>
+</html>
